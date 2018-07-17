@@ -9,25 +9,32 @@ import java.util.regex.*;
 public class Solution {
 
     // Complete the getWays function below.
+	// Complete the getWays function below.
     static long getWays(long n, long[] c) {
-    	Arrays.sort(c);
-    	
-    	long maxLength = n/c[0]+n%c[0]!=0?1:0;
-    	long ways = 0;
-    	
-    	while(maxLength > 0)
-    	{
-    		long sum = 0;
-    		for(int i = 0 ; i< c.length; i++)
-    		{
-    			    			
-    		}
-    	}
-    	
-    	return ways;
-
+        long[] ways = new long[(int)n+1];
+        
+        ways[0] = 1;
+        
+        for(int i = 0 ; i < c.length ; i++)
+        {
+            if(c[i] > n) continue;
+                
+            ways[(int)c[i]] += 1;
+            
+            for(int j = 1; j <= n; j++ )
+            {
+                if(j-c[i] > 0)
+                {
+                    ways[j] += ways[j-(int)c[i]];
+                    // System.out.println(j+":"+ways[j]);
+                }                
+            }
+        }
+        int w = (int)n;
+        // System.out.println(ways[w]);
+        
+        return ways[w];
     }
-
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
