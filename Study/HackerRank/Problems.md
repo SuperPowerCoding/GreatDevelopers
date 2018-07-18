@@ -1,8 +1,13 @@
-[공통] HackerRank 문제 순서
+HackerRank 문제 리스트
 ============================
-# ● 문제 목록
-문제가 추가 될 때마다, 여기에 등록이 됩니다. (2018년 7월 13일 이후)
-
-1. [The Power Sum](https://www.hackerrank.com/challenges/the-power-sum/problem "The Power Sum")			: 2018년 7월 11일 (수)
-2. [Alice and Bob's Silly Game](https://www.hackerrank.com/challenges/alice-and-bobs-silly-game/problem "Alice adn Bob's Silly Game")			: 2018년 7월 15일 (금)
-3. **[The Maximum Subarray](https://www.hackerrank.com/challenges/maxsubarray/problem "The Maximum Subarray")			: 2018년 7월 16일 (월)**
+### ●  규칙
+```
+- 문제가 추가 될 때마다, 여기에 달별로 등록이 됩니다. (2018년 07월 11일 (수) 이후)
+- 현재 풀고 있는 문제는 강조되어 있습니다.
+```
+- - - - - - - - - - -
+#### [2018년 7월]
+1.  2018년 07월 11일 (수) : [The Power Sum](https://www.hackerrank.com/challenges/the-power-sum/problem "The Power Sum")  
+2.  2018년 07월 15일 (금) : [Alice and Bob's Silly Game](https://www.hackerrank.com/challenges/alice-and-bobs-silly-game/problem "Alice adn Bob's Silly Game")  
+3. **2018년 07월 16일 (월) : [The Maximum Subarray](https://www.hackerrank.com/challenges/maxsubarray/problem "The Maximum Subarray")**
+- - - - - - - - - -
