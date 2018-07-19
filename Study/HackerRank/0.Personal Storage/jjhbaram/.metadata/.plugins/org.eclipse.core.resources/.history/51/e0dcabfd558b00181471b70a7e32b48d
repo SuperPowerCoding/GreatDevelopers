@@ -1,0 +1,88 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    static int RomanNumStr2Num(String str)
+    {
+    	int[] number 		= new int[] 	{  1,  5, 10, 50,100,500,1000};
+    	char[] romanStr 	= new char[]	{'I','V','X','L','C','D','M'};
+    	
+    	int pre = 0;
+    	int num = 0;
+    	
+    	int reVal = 0;
+    	
+    	for(int i = 0 ; i < str.length(); i++)
+    	{
+    		char ch = str.charAt(i);
+    		for(int j = romanStr.length - 1 ; j >= 0 ; j--)
+    		{
+    			if(ch == romanStr[j])
+    			{
+    				num = number[j];
+    				reVal += num;
+    				if(pre < num)
+    				{
+    					reVal -= 2 * pre; 
+    				}
+    				pre = num;
+    				break;
+    			}
+    		}
+    	}
+    	
+    	return reVal;
+    	
+    }
+    
+    static String Num2RomanStr(int num)
+    {
+    	int[] number 		= new int[] 	{  1,   4,  5,   9, 10,  40, 50,  90,100, 400,500, 900, 1000};
+    	String[] romanStr 	= new String[]	{"I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"};
+    	
+    	StringBuffer roman = new StringBuffer();
+    	
+    	while(num > 0 )
+    	{
+    		
+    	}
+    	
+    	
+    	return roman.toString();    	
+    }
+	
+	static String RomanNumerals(String str)
+    {
+    	int num = RomanNumStr2Num(str);
+    	
+    	return Num2RomanStr(num);
+    }	
+	
+	
+	public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    	
+		
+		System.out.println(RomanNumStr2Num("LLLXXXXX"));
+		
+		
+		/*
+		int nTimes;
+    	    	
+    	for(int i = 0 ; i < nTimes ; i++)
+    	{
+    		String str;
+    		
+    		String answer = RomanNumerals(str);
+    		
+    		System.out.println(answer);    		
+    	}
+    	*/
+    	
+    	
+    }
+}
