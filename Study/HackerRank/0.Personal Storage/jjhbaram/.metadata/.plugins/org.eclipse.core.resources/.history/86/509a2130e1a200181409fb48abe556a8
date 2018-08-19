@@ -1,0 +1,138 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+	static String[] words;
+	
+	static final char BLOCK = '+';
+	static final char TO_BE_FILLED = '-';
+	
+	static int[][] s_p = new int[10][2];
+	static int[][] e_p = new int[10][2];
+	
+	boolean checkFilled(String[] corssword)
+	{
+		for(int i = 0 ; i < corssword.length ; i++)
+    	{
+    		for(int j = 0 ; j < corssword[i].length() ; j++)
+    		{
+    			if(corssword[i].charAt(j) == TO_BE_FILLED)
+    			{
+    				return false;
+    			}
+    		}
+    	}
+		
+		return true;
+	}
+	
+	static void findPos(int sy, int sx, String[] crossword)
+	{
+		for(int i = sy ; i < crossword.length ; i++)
+    	{
+    		for(int j = sx ; j < crossword[i].length() ; j++)
+    		{
+    			if(crossword[i].charAt(j) == TO_BE_FILLED)
+    			{
+    				// check another path
+    				int[][] dir = {
+    						// y,x
+    						// {-1,+0},	// ก่
+    						// {+0,+1},	// กๆ
+    						{+1,+1},	// ก้
+    						// {+0,-1}		// ก็
+    				};
+    				
+    				int cnt = 0;
+    				
+    				for(int k = 0 ; k < dir.length; k++)
+    				{
+    					int y = i + dir[k][0];
+    					int x = j + dir[k][1];
+    					if( 0 > y || y > crossword.length ) continue;
+    					if( 0 > x || x > crossword[i].length() ) continue;
+    					
+    					cnt++;
+    				}
+    				
+    				if(cnt > 1)
+    				{
+    					
+    				}
+    				
+    			}
+    		}
+    	}
+	}
+	
+	
+	
+	// Complete the crosswordPuzzle function below.
+    static String[] crosswordPuzzle(String[] crossword) {
+    	for(int i = 0 ; i < crossword.length ; i++)
+    	{
+    		for(int j = 0 ; j < crossword[i].length() ; j++)
+    		{
+    			if(crossword[i].charAt(j) == TO_BE_FILLED)
+    			{
+    				// check node
+    				int[][] dir = {
+    						// y,x
+    						{-1,+0},{+0,+1},{+1,+1},{+0,-1}
+    				};
+    				
+    				for(int k = 0 ; k < dir.length; k++)
+    				{
+    					int y = i + dir[k][0];
+    					int x = j + dir[k][1];
+    					if( 0 > y || y > crossword.length ) continue;
+    					if( 0 > x || x > crossword[i].length() ) continue;
+    					
+    					
+    				}
+    				
+    			}
+    		}
+    	}
+    }
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) throws IOException {
+        // BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+    	String[] crossword = new String[10];
+    	
+        for (int i = 0; i < 10; i++) {
+            String crosswordItem = scanner.nextLine();
+            crossword[i] = crosswordItem;
+        }
+
+        words = scanner.nextLine().split(" ");
+        boolean[] checked = new boolean[words.length];
+
+        String[] result = crosswordPuzzle(crossword,checked);
+
+        for (int i = 0; i < result.length; i++) {
+            // bufferedWriter.write(result[i]);
+        	System.out.print(result[i]);
+
+            if (i != result.length - 1) {
+                // bufferedWriter.write("\n");
+            	System.out.println();
+            }
+        }
+
+        // bufferedWriter.newLine();
+
+        // bufferedWriter.close();
+
+        scanner.close();
+    }
+}
