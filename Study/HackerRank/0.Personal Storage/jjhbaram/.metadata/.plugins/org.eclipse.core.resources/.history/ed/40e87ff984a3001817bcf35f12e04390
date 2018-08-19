@@ -1,0 +1,211 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+	// static String[] words;
+	static final char TO_BE_FILLED = '-';
+	static final int VERTICAL = 0;
+	static final int HORIZON = 1;
+	
+	static class Direction
+	{
+		int x;
+		int y;
+		int dir;
+	}
+	
+	static String[] result;
+	static Stack<String> words = new Stack<>();
+	static boolean debugPrint = false;
+	
+	static boolean isSolved()
+	{
+		return words.isEmpty();
+	}
+	
+	static ArrayList<Direction> getDirections(char[][] crossword, String word)
+	{
+		ArrayList<Direction> dir = new ArrayList();
+		
+		System.out.println(crossword.length + " "+word.length());
+		
+		for(int i = 0 ; i < crossword.length; i++)
+		{
+			for(int j = 0 ; j < crossword[i].length; j++)
+			{
+				boolean horizonDir = true;
+				boolean verticalDir = true;
+				
+				for(int k = 0 ; k < word.length() ; k++)
+				{
+					// check horizon dir
+					if((j+k < crossword[i].length) && (crossword[i][j+k] != TO_BE_FILLED && crossword[i][j+k] != word.charAt(k)))
+					{
+						horizonDir = false;
+					}
+					
+					// check vertical dir
+					if((i+k < crossword.length) && (crossword[i+k][j] != TO_BE_FILLED && crossword[i+k][j] != word.charAt(k)))
+					{
+						verticalDir = false;
+					}
+					
+				}
+						
+				if(horizonDir && (j+word.length() < crossword[i].length+1))
+				{
+					// ÁÂÇ¥ Ãß°¡
+	    			Direction d = new Direction();
+	    			d.dir = HORIZON;
+	    			d.x = j;
+	    			d.y = i;
+	    			
+	    			dir.add(d);
+				}
+				
+				if(verticalDir && (i+word.length() < crossword.length+1))
+				{
+					// ÁÂÇ¥ Ãß°¡
+	    			Direction d = new Direction();
+	    			d.dir = VERTICAL;
+	    			d.x = j;
+	    			d.y = i;
+	    			
+	    			dir.add(d);
+				}	
+			}			
+		}
+		
+		return dir;
+	}
+	
+	static void printCrossWord(char[][] crossword)
+	{
+		System.out.println();
+		for(int i = 0 ; i< crossword.length ; i++)
+		{
+			for(int j = 0 ; j< crossword.length ; j++)
+			{
+				System.out.print(crossword[i][j]);
+			}
+			System.out.println();
+		}
+	}
+	
+	
+	static void solve(char[][] crossword)
+	{
+		if(isSolved())
+		{
+			// save and return;
+			if(debugPrint)printCrossWord(crossword);
+			
+			
+			
+			
+			return ;
+		}		
+		
+		if(debugPrint)printCrossWord(crossword);
+		
+		String word = words.pop();
+		
+		ArrayList<Direction> dirs = getDirections(crossword, word);
+		
+		for(Direction dir : dirs)
+		{
+			// fill word			
+			for(int j = 0 ; j < word.length() ; j++)
+			{
+				if(dir.dir == VERTICAL)
+				{
+					crossword[dir.y + j][dir.x] = word.charAt(j);
+				}
+				else
+				{
+					crossword[dir.y][dir.x + j] = word.charAt(j);
+				}
+			}
+			
+			// next word
+			solve(crossword);
+			
+			// restore 
+			for(int j = 0 ; j < word.length() ; j++)
+			{
+				if(dir.dir == VERTICAL)
+				{
+					crossword[dir.y + j][dir.x] = TO_BE_FILLED;
+				}
+				else
+				{
+					crossword[dir.y][dir.x + j] = TO_BE_FILLED;
+				}
+			}
+		}
+		
+		words.push(word);
+		
+	}
+	
+	
+	
+	// Complete the crosswordPuzzle function below.
+    static String[] crosswordPuzzle(char[][] crossword) {    	
+    	
+    	solve(crossword);
+    	return result;
+    }
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) throws IOException {
+        // BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+    	String[] crossword = new String[10];
+    	
+        for (int i = 0; i < 10; i++) {
+            String crosswordItem = scanner.nextLine();
+            crossword[i] = crosswordItem;
+        }
+
+        String[] temp = scanner.nextLine().split(";");
+        
+        for(int i = 0 ; i < temp.length ; i++)
+        {
+        	words.push(temp[i]);
+        	System.out.println(temp[i]);
+        }
+
+        char[][] cw = new char[crossword.length][];
+        
+        for(int i = 0; i < crossword.length ; i++)
+        {
+        	cw[i] = crossword[i].toCharArray();
+        }
+        
+        result = crosswordPuzzle(cw);
+
+        for (int i = 0; i < result.length; i++) {
+            // bufferedWriter.write(result[i]);
+        	System.out.print(result[i]);
+
+            if (i != result.length - 1) {
+                // bufferedWriter.write("\n");
+            	System.out.println();
+            }
+        }
+
+        // bufferedWriter.newLine();
+
+        // bufferedWriter.close();
+
+        scanner.close();
+    }
+}

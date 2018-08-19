@@ -1,0 +1,161 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+	// static String[] words;
+	
+	static final char BLOCK = '+';
+	static final char TO_BE_FILLED = '-';
+	
+	static class Direction
+	{
+		int x;
+		int y;
+		int dir;
+	}
+	
+	static String[] result;
+	static Stack<String> words = new Stack<>();
+	
+	static boolean isSolved()
+	{
+		return words.isEmpty();
+	}
+	
+	static ArrayList<Direction> getDirections(char[][] crossword, String word)
+	{
+		ArrayList<Direction> dir = new ArrayList();
+		
+		for(int i = 0 ; i < crossword.length ; i++)
+		{
+			int length = 0;
+			int s = 0;
+			
+			for(int j = 0 ; j < crossword[i].length - word.length(); j++)
+			{
+				char ch = word.length() < length ? word.charAt(length) : 0 ;				
+						
+				if(crossword[i][j] == TO_BE_FILLED || ch != crossword[i][j])
+    			{
+					length++;
+    				if(length == 1) s = j;
+    			}
+				else 
+				{
+					if(length != 0)
+    				{    					
+			    		if(word.length() == length)
+			    		{
+			    			// ÁÂÇ¥ Ãß°¡
+			    			Direction dir = new Direction();
+			    			dir.dir = 0;
+			    		}
+    				}
+    				length = 0;
+				}
+			}			
+		}
+		
+		return dir;
+	}
+	
+	
+	
+	
+	static void solve(char[][] crossword)
+	{
+		if(isSolved())
+		{
+			// save and return;
+		}		
+		
+		String word = words.pop();
+		
+		direction[] dirs = 
+		
+	}
+	
+	
+	
+	// Complete the crosswordPuzzle function below.
+    static String[] crosswordPuzzle(char[][] crossword) {    	
+    	
+		String word = words.pop();
+		
+		for(int i = 0 ; i < crossword.length ; i++)
+		{
+    		int length = 0;
+    		int s = 0;	    			    		
+			
+			for(int j = 0 ; j < crossword[i].length ; j++)
+    		{
+    			if(crossword[i][j] == TO_BE_FILLED)
+    			{
+    				length++;
+    				if(length == 1) s = j;
+    			}
+    			else
+    			{
+    				if(length!=0)
+    				{
+    					e = j;
+			    		if(word.length() == length)
+			    		{
+			    			for(int l = 0 ; l < length ; l++)
+			    			{
+			    				crossword[i][l+s] = words[k].charAt(l);
+			    				crosswordPuzzle(crossword);
+			    			}
+			    		}
+    				}
+    				length = 0;
+    			}
+    		}
+		}    		
+    	
+    }
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) throws IOException {
+        // BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+    	String[] crossword = new String[10];
+    	
+        for (int i = 0; i < 10; i++) {
+            String crosswordItem = scanner.nextLine();
+            crossword[i] = crosswordItem;
+        }
+
+        String[] temp = scanner.nextLine().split(" ");
+        
+        for(int i = 0 ; i < temp.length ; i++)
+        {
+        	words.push(temp[i]);
+        }
+
+        String[] result = crosswordPuzzle(crossword);
+
+        for (int i = 0; i < result.length; i++) {
+            // bufferedWriter.write(result[i]);
+        	System.out.print(result[i]);
+
+            if (i != result.length - 1) {
+                // bufferedWriter.write("\n");
+            	System.out.println();
+            }
+        }
+
+        // bufferedWriter.newLine();
+
+        // bufferedWriter.close();
+
+        scanner.close();
+    }
+}
