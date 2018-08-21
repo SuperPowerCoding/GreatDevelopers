@@ -9,6 +9,7 @@ HackerRank 문제 리스트
 #### [2018년 8월]
 1. 2018년 08월 03일 (수) : [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem "https://www.hackerrank.com/challenges/recursive-digit-sum/problem")
 2. 2018년 08월 13일 (월) : [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_r=internal-search "https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_r=internal-search")
+3. ***2018년 08월 21일 (월) : [Forming a Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem?h_r=internal-search "https://www.hackerrank.com/challenges/magic-square-forming/problem?h_r=internal-search")***
 
 #### [2018년 7월]
 1. 2018년 07월 11일 (수) : [The Power Sum](https://www.hackerrank.com/challenges/the-power-sum/problem "https://www.hackerrank.com/challenges/the-power-sum/problem")  
