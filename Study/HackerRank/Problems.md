@@ -6,6 +6,9 @@ HackerRank 문제 리스트
 - 현재 풀고 있는 문제는 강조되어 있습니다.
 ```
 - - - - - - - - - - -
+#### [2018년 9월]
+1. 2018년 09월 05일 (수) : [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem")
+
 #### [2018년 8월]
 1. 2018년 08월 03일 (수) : [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem "https://www.hackerrank.com/challenges/recursive-digit-sum/problem")
 2. 2018년 08월 13일 (월) : [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_r=internal-search "https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_r=internal-search")
