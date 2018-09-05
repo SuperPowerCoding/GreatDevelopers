@@ -7,7 +7,7 @@ HackerRank 문제 리스트
 ```
 - - - - - - - - - - -
 #### [2018년 9월]
-1. 2018년 09월 05일 (수) : [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem")
+1. ***2018년 09월 05일 (수) : [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem")***
 
 #### [2018년 8월]
 1. 2018년 08월 03일 (수) : [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem "https://www.hackerrank.com/challenges/recursive-digit-sum/problem")
