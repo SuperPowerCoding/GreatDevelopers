@@ -1,0 +1,66 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    static String organizingContainers(int[][] container) {
+        // Complete this function
+        boolean debugPrint = true;
+        long[] sumRow = new long[container.length];
+        long[] sumCol = new long[container[0].length];
+        
+        for(int i = 0 ; i < sumRow.length ; i++) sumRow[i] = 0;
+        for(int i = 0 ; i < sumCol.length ; i++) sumCol[i] = 0;
+        
+        // sum col
+        for(int i = 0 ; i < container.length ; i++)
+        {
+            for(int j = 0 ; j < container.length ; j++)
+            {
+                sumRow[i] += (long)container[i][j];
+            }
+        }
+        
+        // sum row
+        for(int i = 0 ; i < container.length ; i++)
+        {
+            for(int j = 0 ; j < container.length ; j++)
+            {
+                sumCol[i] += (long)container[j][i];
+            }
+            
+            
+        }
+        
+        Arrays.sort(sumRow);
+        Arrays.sort(sumCol);
+        
+        for(int i = 0 ; i < sumRow.length ; i++)
+        {
+            if(sumRow[i] != sumCol[i])  return "Impossible";    
+        }
+        
+        
+        return "Possible";
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int q = in.nextInt();
+        for(int a0 = 0; a0 < q; a0++){
+            int n = in.nextInt();
+            int[][] container = new int[n][n];
+            for(int container_i = 0; container_i < n; container_i++){
+                for(int container_j = 0; container_j < n; container_j++){
+                    container[container_i][container_j] = in.nextInt();
+                }
+            }
+            String result = organizingContainers(container);
+            System.out.println(result);
+        }
+        in.close();
+    }
+}
