@@ -10,6 +10,7 @@ HackerRank 문제 리스트
 1. 2018년 09월 05일 (수) : [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem")
 2. 2018년 09월 07일 (금) : [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater/problem "https://www.hackerrank.com/challenges/bigger-is-greater/problem")
 3. ***2018년 09년 12일 (수) : [Even Tree](https://www.hackerrank.com/challenges/even-tree/problem?h_r=internal-search "https://www.hackerrank.com/challenges/even-tree/problem?h_r=internal-search")***
+3. ***2018년 09년 14일 (금) : [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search/problem "https://www.hackerrank.com/challenges/the-grid-search/problem")***
 
 #### [2018년 8월]
 1. 2018년 08월 03일 (수) : [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem "https://www.hackerrank.com/challenges/recursive-digit-sum/problem")
