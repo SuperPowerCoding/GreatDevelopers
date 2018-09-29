@@ -13,6 +13,7 @@ HackerRank 문제 리스트
 3. 2018년 09년 14일 (금) : [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search/problem "https://www.hackerrank.com/challenges/the-grid-search/problem")
 4. 2018년 09년 16일 (월) : [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man/problem "https://www.hackerrank.com/challenges/bomber-man/problem")
 5. ***2018년 09년 19일 (수) : [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses/problem "https://www.hackerrank.com/challenges/two-pluses/problem")***
+5. ***2018년 09년 28일 (금) : [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem "https://www.hackerrank.com/challenges/larrys-array/problem")***
 
 #### [2018년 8월]
 1. 2018년 08월 03일 (수) : [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem "https://www.hackerrank.com/challenges/recursive-digit-sum/problem")
