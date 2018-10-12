@@ -6,14 +6,17 @@ HackerRank 문제 리스트
 - 현재 풀고 있는 문제는 강조되어 있습니다.
 ```
 - - - - - - - - - - -
+#### [2018년 10월]
+1. ***2018년 10월 13일 (금) : [Fraudulent Activity Notifications](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem "https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem")***
+
 #### [2018년 9월]
 1. 2018년 09월 05일 (수) : [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem")
 2. 2018년 09월 07일 (금) : [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater/problem "https://www.hackerrank.com/challenges/bigger-is-greater/problem")
 3. 2018년 09년 12일 (수) : [Even Tree](https://www.hackerrank.com/challenges/even-tree/problem?h_r=internal-search "https://www.hackerrank.com/challenges/even-tree/problem?h_r=internal-search")
 3. 2018년 09년 14일 (금) : [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search/problem "https://www.hackerrank.com/challenges/the-grid-search/problem")
 4. 2018년 09년 16일 (월) : [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man/problem "https://www.hackerrank.com/challenges/bomber-man/problem")
-5. ***2018년 09년 19일 (수) : [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses/problem "https://www.hackerrank.com/challenges/two-pluses/problem")***
-5. ***2018년 09년 28일 (금) : [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem "https://www.hackerrank.com/challenges/larrys-array/problem")***
+5. 2018년 09년 19일 (수) : [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses/problem "https://www.hackerrank.com/challenges/two-pluses/problem")
+5. 2018년 09년 28일 (금) : [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem "https://www.hackerrank.com/challenges/larrys-array/problem")
 
 #### [2018년 8월]
 1. 2018년 08월 03일 (수) : [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem "https://www.hackerrank.com/challenges/recursive-digit-sum/problem")
