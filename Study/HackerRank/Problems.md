@@ -1,35 +1,36 @@
-HackerRank ¹®Á¦ ¸®½ºÆ®
+HackerRank ë¬¸ì œ ë¦¬ìŠ¤íŠ¸
 ============================
-### ¡Ü  ±ÔÄ¢
+### â—  ê·œì¹™
 ```
-- ¹®Á¦°¡ Ãß°¡ µÉ ¶§¸¶´Ù, ¿©±â¿¡ ´Şº°·Î µî·ÏÀÌ µË´Ï´Ù. (2018³â 07¿ù 11ÀÏ (¼ö) ÀÌÈÄ)
-- ÇöÀç Ç®°í ÀÖ´Â ¹®Á¦´Â °­Á¶µÇ¾î ÀÖ½À´Ï´Ù.
+- ë¬¸ì œê°€ ì¶”ê°€ ë  ë•Œë§ˆë‹¤, ì—¬ê¸°ì— ë‹¬ë³„ë¡œ ë“±ë¡ì´ ë©ë‹ˆë‹¤. (2018ë…„ 07ì›” 11ì¼ (ìˆ˜) ì´í›„)
+- í˜„ì¬ í’€ê³  ìˆëŠ” ë¬¸ì œëŠ” ê°•ì¡°ë˜ì–´ ìˆìŠµë‹ˆë‹¤.
 ```
 - - - - - - - - - - -
-#### [2018³â 10¿ù]
-1. ***2018³â 10¿ù 13ÀÏ (±İ) : [Fraudulent Activity Notifications](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem "https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem")***
+#### [2018ë…„ 10ì›”]
+1. 2018ë…„ 10ì›” 13ì¼ (ê¸ˆ) : [Fraudulent Activity Notifications](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem "https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem")
+***2. 2018ë…„ 10ì›” 15ì¼ (ì›”) : [Lily's Homework](https://www.hackerrank.com/challenges/lilys-homework/problem "https://www.hackerrank.com/challenges/lilys-homework/problem")***
 
-#### [2018³â 9¿ù]
-1. 2018³â 09¿ù 05ÀÏ (¼ö) : [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem")
-2. 2018³â 09¿ù 07ÀÏ (±İ) : [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater/problem "https://www.hackerrank.com/challenges/bigger-is-greater/problem")
-3. 2018³â 09³â 12ÀÏ (¼ö) : [Even Tree](https://www.hackerrank.com/challenges/even-tree/problem?h_r=internal-search "https://www.hackerrank.com/challenges/even-tree/problem?h_r=internal-search")
-3. 2018³â 09³â 14ÀÏ (±İ) : [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search/problem "https://www.hackerrank.com/challenges/the-grid-search/problem")
-4. 2018³â 09³â 16ÀÏ (¿ù) : [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man/problem "https://www.hackerrank.com/challenges/bomber-man/problem")
-5. 2018³â 09³â 19ÀÏ (¼ö) : [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses/problem "https://www.hackerrank.com/challenges/two-pluses/problem")
-5. 2018³â 09³â 28ÀÏ (±İ) : [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem "https://www.hackerrank.com/challenges/larrys-array/problem")
+#### [2018ë…„ 9ì›”]
+1. 2018ë…„ 09ì›” 05ì¼ (ìˆ˜) : [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem")
+2. 2018ë…„ 09ì›” 07ì¼ (ê¸ˆ) : [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater/problem "https://www.hackerrank.com/challenges/bigger-is-greater/problem")
+3. 2018ë…„ 09ë…„ 12ì¼ (ìˆ˜) : [Even Tree](https://www.hackerrank.com/challenges/even-tree/problem?h_r=internal-search "https://www.hackerrank.com/challenges/even-tree/problem?h_r=internal-search")
+3. 2018ë…„ 09ë…„ 14ì¼ (ê¸ˆ) : [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search/problem "https://www.hackerrank.com/challenges/the-grid-search/problem")
+4. 2018ë…„ 09ë…„ 16ì¼ (ì›”) : [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man/problem "https://www.hackerrank.com/challenges/bomber-man/problem")
+5. 2018ë…„ 09ë…„ 19ì¼ (ìˆ˜) : [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses/problem "https://www.hackerrank.com/challenges/two-pluses/problem")
+5. 2018ë…„ 09ë…„ 28ì¼ (ê¸ˆ) : [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem "https://www.hackerrank.com/challenges/larrys-array/problem")
 
-#### [2018³â 8¿ù]
-1. 2018³â 08¿ù 03ÀÏ (¼ö) : [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem "https://www.hackerrank.com/challenges/recursive-digit-sum/problem")
-2. 2018³â 08¿ù 13ÀÏ (¿ù) : [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_r=internal-search "https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_r=internal-search")
-3. 2018³â 08¿ù 21ÀÏ (¿ù) : [Forming a Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem?h_r=internal-search "https://www.hackerrank.com/challenges/magic-square-forming/problem?h_r=internal-search")
-4. 2018³â 08¿ù 24ÀÏ (±İ) : [Zig Zag Sequence](https://www.hackerrank.com/challenges/zig-zag-sequence/problem "https://www.hackerrank.com/challenges/zig-zag-sequence/problem")
-5. 2018³â 08¿ù 27ÀÏ (¿ù) : [Prime Dates](https://www.hackerrank.com/challenges/prime-date/problem "https://www.hackerrank.com/challenges/prime-date/problem")
-6. ***2018³â 08¿ù 30ÀÏ (¸ñ) : [Lego Blocks](https://www.hackerrank.com/challenges/lego-blocks/problem?h_r=internal-search "https://www.hackerrank.com/challenges/lego-blocks/problem?h_r=internal-search")***
+#### [2018ë…„ 8ì›”]
+1. 2018ë…„ 08ì›” 03ì¼ (ìˆ˜) : [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem "https://www.hackerrank.com/challenges/recursive-digit-sum/problem")
+2. 2018ë…„ 08ì›” 13ì¼ (ì›”) : [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_r=internal-search "https://www.hackerrank.com/challenges/crossword-puzzle/problem?h_r=internal-search")
+3. 2018ë…„ 08ì›” 21ì¼ (ì›”) : [Forming a Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem?h_r=internal-search "https://www.hackerrank.com/challenges/magic-square-forming/problem?h_r=internal-search")
+4. 2018ë…„ 08ì›” 24ì¼ (ê¸ˆ) : [Zig Zag Sequence](https://www.hackerrank.com/challenges/zig-zag-sequence/problem "https://www.hackerrank.com/challenges/zig-zag-sequence/problem")
+5. 2018ë…„ 08ì›” 27ì¼ (ì›”) : [Prime Dates](https://www.hackerrank.com/challenges/prime-date/problem "https://www.hackerrank.com/challenges/prime-date/problem")
+6. ***2018ë…„ 08ì›” 30ì¼ (ëª©) : [Lego Blocks](https://www.hackerrank.com/challenges/lego-blocks/problem?h_r=internal-search "https://www.hackerrank.com/challenges/lego-blocks/problem?h_r=internal-search")***
 
-#### [2018³â 7¿ù]
-1. 2018³â 07¿ù 11ÀÏ (¼ö) : [The Power Sum](https://www.hackerrank.com/challenges/the-power-sum/problem "https://www.hackerrank.com/challenges/the-power-sum/problem")  
-2. 2018³â 07¿ù 15ÀÏ (±İ) : [Alice and Bob's Silly Game](https://www.hackerrank.com/challenges/alice-and-bobs-silly-game/problem "https://www.hackerrank.com/challenges/alice-and-bobs-silly-game/problem")  
-3. 2018³â 07¿ù 16ÀÏ (¿ù) : [The Maximum Subarray](https://www.hackerrank.com/challenges/maxsubarray/problem "https://www.hackerrank.com/challenges/maxsubarray/problem")
-4. 2018³â 07¿ù 20ÀÏ (±İ) : [Project Euler #89 Roman numerals](https://www.hackerrank.com/contests/projecteuler/challenges/euler089 "https://www.hackerrank.com/contests/projecteuler/challenges/euler089")
-5. 2018³â 07¿ù 23ÀÏ (¿ù) : [Cut the Tree](https://www.hackerrank.com/challenges/cut-the-tree/problem "https://www.hackerrank.com/challenges/cut-the-tree/problem")
+#### [2018ë…„ 7ì›”]
+1. 2018ë…„ 07ì›” 11ì¼ (ìˆ˜) : [The Power Sum](https://www.hackerrank.com/challenges/the-power-sum/problem "https://www.hackerrank.com/challenges/the-power-sum/problem")  
+2. 2018ë…„ 07ì›” 15ì¼ (ê¸ˆ) : [Alice and Bob's Silly Game](https://www.hackerrank.com/challenges/alice-and-bobs-silly-game/problem "https://www.hackerrank.com/challenges/alice-and-bobs-silly-game/problem")  
+3. 2018ë…„ 07ì›” 16ì¼ (ì›”) : [The Maximum Subarray](https://www.hackerrank.com/challenges/maxsubarray/problem "https://www.hackerrank.com/challenges/maxsubarray/problem")
+4. 2018ë…„ 07ì›” 20ì¼ (ê¸ˆ) : [Project Euler #89 Roman numerals](https://www.hackerrank.com/contests/projecteuler/challenges/euler089 "https://www.hackerrank.com/contests/projecteuler/challenges/euler089")
+5. 2018ë…„ 07ì›” 23ì¼ (ì›”) : [Cut the Tree](https://www.hackerrank.com/challenges/cut-the-tree/problem "https://www.hackerrank.com/challenges/cut-the-tree/problem")
 - - - - - - - - - -
