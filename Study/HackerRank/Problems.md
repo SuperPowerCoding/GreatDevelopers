@@ -5,11 +5,10 @@ HackerRank 문제 리스트
 - 문제가 추가 될 때마다, 여기에 달별로 등록이 됩니다. (2018년 07월 11일 (수) 이후)
 - 현재 풀고 있는 문제는 강조되어 있습니다.
 ```
-
 - - - - - - - - - - -
 #### [2018년 10월]
 1. 2018년 10월 13일 (금) : [Fraudulent Activity Notifications](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem "https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem")
-***2. 2018년 10월 15일 (월) : [Lily's Homework](https://www.hackerrank.com/challenges/lilys-homework/problem "https://www.hackerrank.com/challenges/lilys-homework/problem")***
+2. ***2018년 10월 15일 (월) : [Lily's Homework](https://www.hackerrank.com/challenges/lilys-homework/problem "https://www.hackerrank.com/challenges/lilys-homework/problem")***
 
 #### [2018년 9월]
 1. 2018년 09월 05일 (수) : [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem "https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem")
