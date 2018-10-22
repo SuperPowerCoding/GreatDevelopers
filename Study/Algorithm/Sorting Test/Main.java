@@ -143,6 +143,24 @@ public class Main {
 		
 		System.out.println("runtime:"+runTime+"\n");
 		
+		// Merge sort
+		
+		System.out.println("[Merge sort]");
+		
+		temp = Arrays.copyOf(originalArr, originalArr.length);
+
+		startTime = System.currentTimeMillis();
+
+		sort.mergeSort(temp);
+		
+		endTime = System.currentTimeMillis();
+		
+		runTime = (endTime - startTime)/1000.0;
+		
+		printArr(temp, 20);
+		
+		System.out.println("runtime:"+runTime+"\n");
+		
 	}
 
 }
