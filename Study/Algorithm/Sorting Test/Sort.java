@@ -11,7 +11,7 @@ public class Sort {
 			{
 				if(min > arr[j])
 				{
-					min = arr[j];
+					min = arr[j];					
 					minIdx = j;
 				}
 			}
@@ -27,7 +27,7 @@ public class Sort {
 	{
 		for(int i = 1 ; i <arr.length; i++)
 		{
-			/* ºñÈ¿À²Àû
+			/* 비효율적
 			for(int j = 0 ;j < i; j++)
 			{
 				if(arr[i] < arr[j])
@@ -75,7 +75,7 @@ public class Sort {
 	 *  Shell Sort
 	 */
 	
-	public void partInsertionSort(int[] arr, int start, int last, int gap)
+	private void partInsertionSort(int[] arr, int start, int last, int gap)
 	{
 		for(int i = start + gap; i <= last; i += gap)
 		{			
@@ -158,6 +158,59 @@ public class Sort {
 		}
 
 	}
+	
+	/*
+	 * Quick Sort 
+	 */
+	public void quickSort(int [] arr)
+	{
+		quickSortInner(arr, 0, arr.length - 1);
+	}
+	
+	private void quickSortInner(int [] arr, int left, int right)
+	{
+		if(left < right)
+		{
+			int  d = quickSortPartition(arr, left, right);
+			quickSortInner(arr, left, d - 1);
+			quickSortInner(arr, d + 1, right);
+		}
+	}
+	
+	private int quickSortPartition(int [] arr, int left, int right)
+	{
+		int pivot = arr[left];
+		int low = left + 1;
+		int high = right;
+		
+		while(low <= high)
+		{
+			while(arr[low] < pivot && low < right) low++;			
+			
+			while(arr[high] > pivot && high > left) high--;
+						
+			if(high <= low)
+			{
+				break;
+			}
+			else
+			{
+				int temp = arr[high];
+				arr[high] = arr[low];
+				arr[low] = temp;
+				
+				low++;
+				high--;
+			}			
+		}		
+
+		int temp = arr[high];
+		arr[high] = arr[left];
+		arr[left] = temp;
+		
+		return high;		
+	}
+	
 	
 	
 }
